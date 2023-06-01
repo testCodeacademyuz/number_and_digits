@@ -47,10 +47,10 @@ class TaskOne(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3,
-            self.test_case_4
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution),
+            self.test_case_4(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
@@ -76,10 +76,10 @@ class TaskTwo(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3,
-            self.test_case_4
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution),
+            self.test_case_4(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
@@ -104,10 +104,10 @@ class TaskThree(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3,
-            self.test_case_4
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution),
+            self.test_case_4(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
@@ -132,10 +132,10 @@ class TaskFour(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3,
-            self.test_case_4
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution),
+            self.test_case_4(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
@@ -160,10 +160,10 @@ class TaskFive(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3,
-            self.test_case_4
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution),
+            self.test_case_4(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
@@ -188,10 +188,10 @@ class TaskSix(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3,
-            self.test_case_4
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution),
+            self.test_case_4(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
@@ -213,9 +213,9 @@ class TaskSeven(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
@@ -241,10 +241,10 @@ class TaskEight(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3,
-            self.test_case_4
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution),
+            self.test_case_4(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
@@ -269,10 +269,10 @@ class TaskNine(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3,
-            self.test_case_4
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution),
+            self.test_case_4(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
@@ -297,10 +297,10 @@ class TaskTen(CheckSolution):
     
     def check(self,solution, tg_username):
         test_cases = [
-            self.test_case_1,
-            self.test_case_2,
-            self.test_case_3,
-            self.test_case_4
+            self.test_case_1(solution),
+            self.test_case_2(solution),
+            self.test_case_3(solution),
+            self.test_case_4(solution)
         ]
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
