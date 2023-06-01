@@ -249,7 +249,7 @@ class TaskEight(CheckSolution):
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
 
-# n = 123, output = 13, n = 289, output = 19, n = 992, output = 92, n = 100, output = 10
+# n = 123, output = 13, n = 289, output = 29, n = 992, output = 92, n = 100, output = 10
 class TaskNine(CheckSolution):
     def __init__(self, task_name, homework_name):
         self.homework_name = homework_name
@@ -259,7 +259,7 @@ class TaskNine(CheckSolution):
         return solution(123) == 13
     
     def test_case_2(self, solution):
-        return solution(289) == 19
+        return solution(289) == 29
     
     def test_case_3(self, solution):
         return solution(992) == 92
