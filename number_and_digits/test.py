@@ -100,7 +100,7 @@ class TaskThree(CheckSolution):
         return solution(99) == 18
     
     def test_case_4(self, solution):
-        return solution(100) == 1
+        return solution(10) == 1
     
     def check(self,solution, tg_username):
         test_cases = [
