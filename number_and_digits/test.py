@@ -55,3 +55,5 @@ class TaskOne(CheckSolution):
         isSolved = all(test_cases)
         self.checking(tg_username, isSolved, self.homework_name)
 
+
+q1 = TaskOne('num_digit01', 'number_and_digits')
