@@ -1,0 +1,8 @@
+setup.py
+number_and_digits/__init__.py
+number_and_digits/test.py
+number_and_digits.egg-info/PKG-INFO
+number_and_digits.egg-info/SOURCES.txt
+number_and_digits.egg-info/dependency_links.txt
+number_and_digits.egg-info/requires.txt
+number_and_digits.egg-info/top_level.txt
